@@ -1,3 +1,5 @@
+#include<iostream>
+using namespace std;
 #include <__stddef_null.h>
 class List;
 class Node{
@@ -10,6 +12,11 @@ class Node{
     }
 
     friend class List;
+    ~Node() {
+        if(next != NULL) {
+            delete next;
+        }
+    }
 };
 class List {
     Node *head;
@@ -75,5 +82,11 @@ class List {
     int recursiveSearch(int data) {
         int index = searchHelper(head, data);
         return index;
+    }
+    ~List() {
+        if (head != NULL) {
+            delete head;
+            head = NULL;
+        }
     }
 };
