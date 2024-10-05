@@ -1,0 +1,3 @@
+/Users/barkotullah/CLionProjects/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir
+/Users/barkotullah/CLionProjects/LinkedList/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/barkotullah/CLionProjects/LinkedList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
