@@ -79,8 +79,8 @@ class List {
     }
 
 
-    int recursiveSearch(int data) {
-        int index = searchHelper(head, data);
+    int recursiveSearch(int key) {
+        int index = searchHelper(head, key);
         return index;
     }
     ~List() {
